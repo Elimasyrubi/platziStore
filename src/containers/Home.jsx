@@ -1,9 +1,12 @@
 import React from 'react';
-// import Products from '../components/Products';
+import Products from '../components/Products';
+import initialState from '../initialState'
 
 const Home = () => {
   return (
-    <h1>Hello home</h1>
+    <Products
+      products={initialState.products}
+    />
   );
 }
 
