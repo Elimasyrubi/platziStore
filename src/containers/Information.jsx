@@ -28,7 +28,7 @@ const Information = () => {
       'phone': formData.get('phone'),
     };
     addToBuyer(buyer);
-    navegate('/chekout/payment')
+    navegate('/checkout/payment')
   };
 
   return (
