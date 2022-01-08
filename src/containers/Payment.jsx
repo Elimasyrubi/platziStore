@@ -56,6 +56,7 @@ const Payment = () => {
             </div>
           </div>
         ))}
+
         <div className="Payment-button">
           <PayPalButton
             paypalOptions={paypalOptions}
