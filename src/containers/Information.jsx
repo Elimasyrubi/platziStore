@@ -1,7 +1,7 @@
 import React, { useRef, useContext } from 'react';
-import '../styles/components/Information.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
+import '../styles/containers/Information.css';
 
 const Information = () => {
 
@@ -30,6 +30,8 @@ const Information = () => {
     addToBuyer(buyer);
     navegate('/checkout/payment')
   };
+
+
 
   return (
     <div className="Information">
@@ -77,7 +79,7 @@ const Information = () => {
         <div className="Information-item">
           <div className="Information-element">
             <h4 className='total'>Total a Pagar</h4>
-            <span>{handleSumtotal()}</span>
+            <h4 className='total'>{handleSumtotal()}</h4>
           </div>
         </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/Success.css';
+import '../styles/containers/Success.css';
 
 const Success = () => {
   return (

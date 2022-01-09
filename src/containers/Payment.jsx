@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/components/Payment.css';
 import { PayPalButton } from 'react-paypal-button-v2';
 import { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 import { useNavigate } from 'react-router-dom';
+import '../styles/containers/Payment.css';
 
 
 const Payment = () => {
